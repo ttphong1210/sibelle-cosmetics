@@ -1,0 +1,55 @@
+# ==============================================
+# Laravel (backend)
+# ==============================================
+
+/backend/vendor/
+/backend/node_modules/
+backend/storage/*.key
+backend/storage/*.log
+/backend/storage/logs/
+/backend/storage/framework/cache
+/backend/storage/framework/sessions
+/backend/storage/framework/views
+/backend/.env
+/backend/.env.*
+/backend/public/storage
+
+# Laravel IDE Helper
+/backend/_ide_helper.php
+/backend/.phpunit.result.cache
+
+# ==============================================
+# Vue.js (frontend)
+# ==============================================
+
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.*
+
+# ==============================================
+# Docker related
+# ==============================================
+
+# Docker build artifacts
+docker/mysql-data/
+*.pid
+
+# ==============================================
+# Common OS files
+# ==============================================
+
+.DS_Store
+Thumbs.db
+
+# ==============================================
+# IDE / Editor / Logs
+# ==============================================
+
+.vscode/
+.idea/
+/*.log
+*.swp
+*.swo
+*.bak
+*.tmp
