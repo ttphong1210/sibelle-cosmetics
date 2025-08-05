@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+
 use App\Services\EmailService;
 use Exception;
 use Illuminate\Bus\Queueable;
